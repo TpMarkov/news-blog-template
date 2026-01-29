@@ -227,13 +227,13 @@ export const getMockWorldNews = (): Article[] => {
 
 // API functions
 export const fetchBulgarianNews = async (
-  category?: CategoryType,
+  _category?: CategoryType,
 ): Promise<Article[]> => {
   return getMockBulgarianNews();
 };
 
 export const fetchWorldNews = async (
-  category?: CategoryType,
+  _category?: CategoryType,
 ): Promise<Article[]> => {
   return getMockWorldNews();
 };
