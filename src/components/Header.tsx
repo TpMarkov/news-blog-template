@@ -33,7 +33,7 @@ const Header = () => {
       <div className="header-main">
         <div className="container">
           <Link to="/" className="logo">
-            24<span>ЧАСА</span>
+            28<span>ЧАСА</span>
           </Link>
 
           <div className="header-actions">
