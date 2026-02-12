@@ -1,0 +1,15 @@
+# Robots.txt for ДНЕВНИК
+# https://dnevnik.bg
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private paths
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://dnevnik.bg/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
